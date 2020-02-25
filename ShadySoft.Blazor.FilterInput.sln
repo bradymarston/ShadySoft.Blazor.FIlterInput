@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29721.120
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadySoft.Blazor.FilterInput", "ShadySoft.Blazor.FilterInput\ShadySoft.Blazor.FilterInput.csproj", "{3FC1467A-280B-4D43-8DA7-914F6B797D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC1467A-280B-4D43-8DA7-914F6B797D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC1467A-280B-4D43-8DA7-914F6B797D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC1467A-280B-4D43-8DA7-914F6B797D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC1467A-280B-4D43-8DA7-914F6B797D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E68E152-1F31-4E0E-B6EC-403C4FCF055E}
+	EndGlobalSection
+EndGlobal

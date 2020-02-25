@@ -1,0 +1,21 @@
+﻿<input @attributes="AdditionalAttributes" @bind-value="Context.FilterText" @bind-value:event="oninput" @onkeypress="KeyPressed" @ref="InputElement"/>
+
+@code 
+{
+    [Parameter]
+    public IFilterContext Context { get; set; }
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public IDictionary<string, object> AdditionalAttributes { get; set; }
+
+    [Parameter]
+    public EventCallback ItemSelected { get; set; }
+
+    public ElementReference InputElement { get; set; }
+
+    private void KeyPressed(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter" && Context.FilteredItemCount == 1)
+            ItemSelected.InvokeAsync(null);
+    }
+}
